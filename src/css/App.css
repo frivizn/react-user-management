@@ -1,0 +1,211 @@
+/* Color Palette */
+
+:root {
+  --light-gray: #dadce8;
+  --light-blue: #1b9ce2;
+}
+
+/* Basic */
+
+h1 {
+  text-align: center;
+  color: var(--light-blue);
+}
+
+h1 span {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: var(--light-blue);
+  cursor: pointer;
+}
+
+/* Helper Classes */
+
+.add-user .form-body {
+  display: none;
+}
+
+/* Form Section */
+
+.form-body {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.8rem;
+  text-decoration: none;
+  line-height: normal;
+  margin-top: 20px;
+
+  display: flex;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="search"],
+button[type="submit"],
+.btn {
+  width: 280px;
+  background-color: transparent;
+  border: 1px solid var(--light-blue);
+  padding: 8px;
+  border-radius: 1px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+}
+
+button[type="submit"],
+.btn {
+  width: 200px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover,
+.btn:hover {
+  border: 1px solid var(--light-blue);
+  background-color: var(--light-blue);
+  color: #fff;
+}
+
+/* Search Section */
+
+.btn-container {
+  width: 600px;
+  padding-top: 40px;
+}
+
+.btn-container .btn {
+  width: 30%;
+  margin: 5px;
+}
+
+.btn-container .btn-first-row,
+.btn-container .btn-second-row {
+  display: flex;
+}
+
+.btn-container .btn-first-row .btn,
+.btn-container .btn-second-row .btn {
+  width: 100%;
+  font-size: 1rem;
+  margin: 3px;
+}
+
+/* Users */
+
+.user-list-body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.single-user {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dashed var(--light-blue);
+}
+
+.delete-user {
+  display: flex;
+}
+
+.delete-user-btn {
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  padding: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+/* Media Query (max-width: 40.5em) */
+
+@media (max-width: 40.5em) {
+  .btn-container {
+    width: 400px;
+  }
+
+  .btn-container .btn {
+    width: 30%;
+    margin: 3px;
+  }
+
+  .user-list-body {
+    width: 90%;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+
+  .single-user {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .delete-user {
+    display: flex;
+  }
+}
+
+/* Media Query (max-width: 25em) */
+
+@media (max-width: 25em) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .btn-container {
+    width: 275px;
+  }
+
+  .btn-container .btn-first-row,
+  .btn-container .btn-second-row {
+    display: flex;
+  }
+
+  .btn-container .btn-first-row .btn,
+  .btn-container .btn-second-row .btn {
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 3px;
+  }
+
+  .user-list-body {
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+
+  .single-user {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .delete-user {
+    display: flex;
+  }
+
+  .delete-user-btn {
+    color: #000;
+    align-self: center;
+    cursor: pointer;
+  }
+}

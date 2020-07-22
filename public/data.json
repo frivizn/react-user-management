@@ -1,0 +1,37 @@
+[
+  {
+    "firstName": "Cynthia",
+    "lastName": "Smiley",
+    "email": "cynthiasmiley@jourrapide.com",
+    "occupation": "Radiologic technologist",
+    "regDate": "2020-07-11 13:25"
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Mullinax",
+    "email": "frankmullinax@jourrapide.com",
+    "occupation": "Pest control worker",
+    "regDate": "2020-07-12 14:25"
+  },
+  {
+    "firstName": "Jeanette",
+    "lastName": "Williams",
+    "email": " jwilliams@jourrapide.com",
+    "occupation": "Publication assistant",
+    "regDate": "2020-07-10 12:45"
+  },
+  {
+    "firstName": "Manuel",
+    "lastName": "Reynolds",
+    "email": "manuelreynolds@jourrapide.com",
+    "occupation": "Laboratory animal technologist",
+    "regDate": "2020-07-17 10:12"
+  },
+  {
+    "firstName": "Mildred",
+    "lastName": " Carter",
+    "email": "mildredcartery@jourrapide.com",
+    "occupation": "Merchandise displayer",
+    "regDate": "2020-07-09 11:20"
+  }
+]
